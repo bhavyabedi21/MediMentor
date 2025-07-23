@@ -8,7 +8,7 @@ import google.generativeai as genai
 
 # Configuring the Key and initiating the model
 genai.configure(api_key=os.getenv('GOOGLE-API-KEY'))
-model = genai.GenerativeModel('gemini-2-pro') 
+model = genai.GenerativeModel('gemini-2.5-flash') 
 
 # Sidebar
 st.sidebar.subheader("Calculate your BMI")
