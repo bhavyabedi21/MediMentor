@@ -42,8 +42,6 @@ st.sidebar.markdown("👨‍💻 Created by: :blue[Bhavya Bedi]")
 st.header("🧑‍⚕️ MediMentor:blue[.ai]: Your Trusted Health Advisor",divider="green")
 input = st.text_input("Hi! I am your Health Advisor 💊. Ask me about your Health, Diseases, and Fitness only ⚕️")
 
-st.text
-
 def guide_me(input):
     if input!= '':
         prompt = f'''Act as a Dietician, Health Coach, and Expert and address
